@@ -83,6 +83,5 @@ def html_visit_gruffy(self, node):
 
 
 def setup(app):
-    app.add_node(gruffygen,
-                 html=(html_visit_gruffy, None))
+    app.add_node(gruffygen, html=(html_visit_gruffy, None))
     app.add_directive('gruffy', Gruffy)
