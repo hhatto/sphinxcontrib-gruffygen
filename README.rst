@@ -1,6 +1,8 @@
 What's This
 ===========
 This is Graphing extension for Sphinx_ .
+This extension adds the ``gruffy`` directive that automatically render graph.
+
 using Gruffy_ module.
 
 .. _Sphinx: http://sphinx.pocoo.org/
@@ -31,6 +33,7 @@ basic usage in sphinx documentation::
     .. gruffy::
        :type: SideBar
        :title: test graph
+       :width: 500
 
         data("foo", [1, 4, 3])
         data("bar", [8, 2, 5])
