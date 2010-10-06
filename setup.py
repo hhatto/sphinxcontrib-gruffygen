@@ -6,7 +6,7 @@ long_desc = '''
 This package contains the Gruffy_ Sphinx_ extension.
 
 .. _Sphinx: http://sphinx.pocoo.org/
-.. _Gruffy: https://pypi.python.org/pypi/gruffy
+.. _Gruffy: http://pypi.python.org/pypi/gruffy
 
 Gruffy is Graphing Library.
 
@@ -17,8 +17,8 @@ documentation.
 Usage example::
 
     .. gruffy::
-        :width: 500
-        :title: Sphinx with Gruffy
+       :width: 500
+       :title: Sphinx with Gruffy
 
         data("test" (1, 3, 5, 3))
         data("test-long" (5, 3, 2, 6))
