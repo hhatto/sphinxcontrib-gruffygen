@@ -59,8 +59,6 @@ def render_gruffy(self, code, options, formattype, prefix='gruffy'):
     relfn = posixpath.join('_images', fname)
     outfn = os.path.join(self.builder.outdir, '_images', fname)
     ensuredir(os.path.dirname(outfn))
-    if not os.path.exists(os.path.dirname(outfn)):
-        raise
     exec "g = gruffy.%s(%d)" % (options['type'], options['width'])
     g.title = str(options['title'])
     for line in code.splitlines():
