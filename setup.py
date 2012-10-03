@@ -6,7 +6,7 @@ requires = ['Sphinx>=0.6', 'gruffy>=0.2']
 
 setup(
     name='sphinxcontrib-gruffygen',
-    version='0.1',
+    version='0.1.1',
     url='http://pypi.python.org/pypi/sphinxcontrib-gruffygen/',
     license='BSD',
     author='Hideo Hattori',
